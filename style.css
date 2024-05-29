@@ -1,0 +1,316 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    padding: 10px 30px;
+    background-color: rgb(202, 208, 216);
+    color: rgb(193, 46, 46);
+    font-size: 20px;
+    width: 100%;
+}
+
+
+body  {
+    background-color:rgb(255, 253, 250);
+}
+
+body {
+    height: 300vh;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+h1 {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 150px;
+    color: rgb(85, 85, 253);
+    display: none;
+   }
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; /* Die Höhe des Kastens entspricht der Höhe des Viewports */
+    width: 60px; /* Beispielbreite, passe dies an deine Bedürfnisse an */
+    background-color: rgb(85, 85, 253);
+    z-index: -1;
+
+}
+
+.product {
+    position: fixed;
+    top: 250px;
+    left: 0;
+    transform-origin: left top; /* Der Punkt, um den das Wort gedreht wird */
+    transform: rotate(-90deg); /* Das Wort um 90 Grad gegen den Uhrzeigersinn drehen */
+    white-space: nowrap; /* Das Wort wird nicht umbrochen */
+    font-size: 20px;
+    padding: 15px; /* Abstand anpassen */
+    /*background-color: #f0f0f0; /* Hintergrundfarbe anpassen */
+    color: #ffffff;
+    z-index: 9999; /* Z-Index, um sicherzustellen, dass das Wort über anderen Inhalten liegt */
+    font-family: 'Walsheim';
+
+}
+
+.story {
+    position: fixed;
+    top: 550px;
+    left: 0;
+    transform-origin: left top; /* Der Punkt, um den das Wort gedreht wird */
+    transform: rotate(-90deg); /* Das Wort um 90 Grad gegen den Uhrzeigersinn drehen */
+    white-space: nowrap; /* Das Wort wird nicht umbrochen */
+    font-size: 20px;
+    padding: 15px; /* Abstand anpassen */
+    /*background-color: #f0f0f0; /* Hintergrundfarbe anpassen */
+    color: #ffffff;
+    z-index: 9999; /* Z-Index, um sicherzustellen, dass das Wort über anderen Inhalten liegt */
+    font-family: 'Walsheim';
+
+}
+
+.about {
+    position: fixed;
+    top: 850px;
+    left: 0;
+    transform-origin: left top; /* Der Punkt, um den das Wort gedreht wird */
+    transform: rotate(-90deg); /* Das Wort um 90 Grad gegen den Uhrzeigersinn drehen */
+    white-space: nowrap; /* Das Wort wird nicht umbrochen */
+    font-size: 20px;
+    padding: 15px; /* Abstand anpassen */
+    /*background-color: #f0f0f0; /* Hintergrundfarbe anpassen */
+    color: #ffffff;
+    z-index: 9999; /* Z-Index, um sicherzustellen, dass das Wort über anderen Inhalten liegt */
+    font-family: 'Walsheim';
+
+}
+
+.test{
+    font-family: 'Walsheim';
+    text-align: center;
+    position: absolute;
+    top: 30vh;
+    right: 11%;
+    color: rgb(85, 85, 253);;
+    font-size: 150px;
+    line-height: 120px;
+    width: 100%;
+    height: 120px;
+    z-index: 30000;
+    
+}
+
+.test1{
+    font-family: 'Walsheim';
+    position: absolute;
+    top: 50vh;
+    left: 42%;
+    color: rgb(85, 85, 253);
+    font-size: 150px;
+    line-height: 120px;
+    width: 100%;
+    height: 120px;
+    z-index: 30000;
+}
+
+
+.box2 {
+
+    background-color: rgb(85, 85, 253);
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 1100px;
+}
+
+
+p1 {
+    font-family: Elegant;
+    color: rgb(85, 85, 253);
+    font-size: 26pt;
+    position: absolute;
+    margin: 30px;
+    top: 1100px;
+    left: 30%;
+}
+
+p2 {
+
+    font-family: Elegant;
+    color: rgb(85, 85, 253);
+    font-size: 18pt;
+    /*text-align: center; */
+    position: absolute;
+    top: 1190px;
+    left: 30%;
+    margin: 30px;
+    
+}
+
+
+p3 {
+
+font-family: Walsheim;
+color: rgb(85, 85, 253);
+font-size: 16pt;
+/*width: 50%;*/
+/*height: 50%;
+top: 1500px;
+position: relative;
+text-align: center; */
+padding: 220px;
+} 
+
+.flex-container {
+    display: flex; 
+    /*background-color: blueviolet; */
+    flex-direction: row;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    top: 1400px;
+    z-index: -100;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+
+    background-color: rgb(85, 85, 253);
+    position: absolute;
+    width: 500px;
+    height: 533px;
+    top: 1950px;
+}
+
+p4 {
+
+color:rgb(255, 253, 250);
+font-family: Elegant;
+position: absolute;
+font-size: 100px;
+top: -22px;
+left: 78px;
+
+
+
+}
+
+p5 {
+
+    font-family: Elegant;
+    color: rgb(85, 85, 253);
+    font-size: 25pt;
+    /*text-align: center; */
+    position: absolute;
+    top: 1940px;
+    left: 33%;
+
+}
+
+p6 {
+
+    font-family: Walsheim;
+    color: rgb(85, 85, 253);
+    font-size: 16pt;
+    top: 1580px;
+    position: relative;
+    left: 33%;
+    width: 30px;
+}
+
+.box4{
+
+  background-color: rgb(85, 85, 253);
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  top: 2700px;
+  left: 400px;
+
+
+}
+
+.box5{
+
+    background-color: rgb(85, 85, 253);
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 2700px;
+    right: 10px;
+  
+  
+  }
+
+
+p7 {
+   
+    font-family: Elegant;
+    color: rgb(255, 253, 250);
+    font-size: 19pt;
+    position: absolute;
+    margin: 30px;
+    top: 2710px;
+    right: 15px;
+    text-align: center;
+}
+
+p8 {
+
+    font-family: Elegant;
+    color: rgb(85, 85, 253);
+    font-size: 25pt;
+    /*text-align: center; */
+    position: absolute;
+    top: 3100px;
+    left: 200px;
+}
+
+p9 {
+    font-family: Walsheim;
+    color: rgb(85, 85, 253);
+    font-size: 16pt;
+    top: 3200px;
+    position: absolute;
+    left: 200px;
+}
+
+.box6{
+
+    background-color: rgb(85, 85, 253);
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    top: 3600px;
+  
+  }
+
+
+p10 {
+
+    font-family: Elegant;
+    color: rgb(255, 253, 250);
+    font-size: 100pt;
+    position: absolute;
+    top: 3625px;
+    left: 100px; 
+
+}
